@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserListContainer.test.js renders without crashing 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row mt-3"
+  >
+    <div
+      className="col"
+    >
+      <h3>
+        Users List
+      </h3>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <UserList
+        handleDelete={[Function]}
+        users={
+          Array [
+            Object {
+              "title": "Testing User array data",
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
